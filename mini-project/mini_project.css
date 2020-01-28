@@ -1,0 +1,131 @@
+                            *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+.title-paragraph{
+    text-align: center;
+    padding-top: 30px;
+}
+.title-paragraph .color-h1{  
+    color: grey;
+}
+
+body{
+    max-width: 1440px;
+    background-color: rgb(228, 222, 222);
+    font-size: 15px;
+}
+body .tout .supervisor{
+    border-top:  4px solid  hsl(180, 62%, 55%);
+    margin: 40px;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: -120px;
+    margin-right: 10PX;
+
+
+}
+body .tout .Team-Builder{
+    border-top: 2px solid hsl(0, 78%, 62%);
+    margin: 40px;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: -250px;
+}
+body .tout .Karma{
+    border-top: 2px solid  hsl(34, 97%, 64%);
+    margin: 40px;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: white;
+    margin-left: -390px;
+
+}
+body .tout .Calculator{
+    border-top: 2px solid  hsl(212, 86%, 64%);
+    margin: 40px;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: white;
+margin-top: -120px;
+margin-left: 10px;
+}
+
+    body .tout{
+        padding: 20px;
+        margin: 30px;
+    }
+ img{
+     padding-top: 70px;
+    padding-left:230px;
+    
+}
+.tout{
+    display: flex;
+    height: 600px;
+position: relative;
+top: 300px;
+justify-content: center;
+}
+@media (max-width:767px){
+    .title-paragraph{
+        text-align: center;
+        padding-top: 30px;
+    } 
+    body .tout .supervisor{
+        border-top:  4px solid  rgb(59, 184, 96);
+        margin: 40px;
+        width: 350px;
+        height: 250px;
+        padding: 20px;
+        border-radius: 4px;
+        background-color: white;}
+        body .tout .Team-Builder{
+            border-top: 2px solid  rgb(153, 41, 41);
+            margin: 40px;
+            width: 350px;
+            height: 250px;
+            padding: 20px;
+            border-radius: 4px;
+            background-color: white;}
+            body .tout .Karma{
+                border-top: 2px solid  rgb(235, 104, 29);
+                margin: 40px;
+                width: 350px;
+                height: 250px;
+                padding: 20px;
+                border-radius: 4px;
+                background-color: white;}
+                body .tout .Calculator{
+                    border-top: 2px solid  rgb(56, 103, 233);
+                    margin: 40px;
+                    width: 350px;
+                    height: 250px;
+                    padding: 20px;
+                    border-radius: 4px;
+                    background-color: white;}
+
+    body .tout{
+        padding: 20px;
+        margin: 30px;
+        display: block;
+top: -80px;
+    }
+
+
+
+}
+
